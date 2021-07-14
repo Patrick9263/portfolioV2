@@ -1,18 +1,17 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Wrapper = styled.div`
-  a {
-    color: #000;
-    text-decoration: none;
+	a {
+		color: #000;
+		text-decoration: none;
 
 		@media (max-width: 960px) {
 			color: ${({ theme }) => (theme === 'light' ? '#000' : '#fff')};
 		}
-  }
+	}
 
-  ${({ desktop }) =>
-    desktop
-      ? `
+	${({ desktop }) => (desktop
+		? `
 			align-items: center;
 			display: flex;
 
@@ -28,7 +27,7 @@ export const Wrapper = styled.div`
 					}
 			}
 		`
-      : `
+		: `
 			padding: 3rem;
 			display: flex;
 			flex-direction: column;
@@ -40,5 +39,5 @@ export const Wrapper = styled.div`
 							margin-bottom: unset;
 					}
 			}
-	`}
-`;
+	`)}
+`

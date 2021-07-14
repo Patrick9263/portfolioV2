@@ -6,16 +6,16 @@ import NavbarLinks from '../NavbarLinks'
 import { Wrapper, Brand } from './styles'
 
 const Navbar = () => {
-  const { theme } = useContext(ThemeContext)
+	const { theme } = useContext(ThemeContext)
 
-  return (
-    <Wrapper as={Container}>
-      <Brand as={Link} to="/" theme={theme}>
+	return (
+		<Wrapper as={Container}>
+			<Brand as={Link} to="/" theme={theme}>
         Patrick Smith
-      </Brand>
-      <NavbarLinks desktop />
-    </Wrapper>
-  )
+			</Brand>
+			<NavbarLinks desktop />
+		</Wrapper>
+	)
 }
 
 export default Navbar

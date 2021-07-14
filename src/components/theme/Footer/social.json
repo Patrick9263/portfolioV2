@@ -1,26 +1,26 @@
 [
-  {
-    "id": 0,
-    "name": "Telegram",
-    "link": "https://t.me/smittward",
-    "icon": "/icons/telegram.svg"
-  },
-  {
-    "id": 1,
-    "name": "Github",
-    "link": "https://github.com/Patrick9263",
-    "icon": "/icons/github.svg"
-  },
-  {
-    "id": 2,
-    "name": "LinkedIn",
-    "link": "https://www.linkedin.com/in/patrick-smith1/",
-    "icon": "/icons/linkedin.svg"
-  },
-  {
-    "id": 3,
-    "name": "Twitter",
-    "link": "https://twitter.com/Smiitward",
-    "icon": "/icons/twitter.svg"
-  }
+	{
+		"id": 0,
+		"name": "Telegram",
+		"link": "https://t.me/smittward",
+		"icon": "/icons/telegram.svg"
+	},
+	{
+		"id": 1,
+		"name": "Github",
+		"link": "https://github.com/Patrick9263",
+		"icon": "/icons/github.svg"
+	},
+	{
+		"id": 2,
+		"name": "LinkedIn",
+		"link": "https://www.linkedin.com/in/patrick-smith1/",
+		"icon": "/icons/linkedin.svg"
+	},
+	{
+		"id": 3,
+		"name": "Twitter",
+		"link": "https://twitter.com/Smiitward",
+		"icon": "/icons/twitter.svg"
+	}
 ]
