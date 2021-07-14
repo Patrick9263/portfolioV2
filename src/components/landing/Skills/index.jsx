@@ -7,7 +7,7 @@ import {
 	Wrapper, SkillsWrapper, Details, Thumbnail,
 } from './styles'
 
-export default function Skills() {
+export const Skills = () => {
 	const { theme } = useContext(ThemeContext)
 
 	return (

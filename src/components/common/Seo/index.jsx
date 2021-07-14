@@ -14,11 +14,11 @@ import {
 	logo,
 } from 'data/config'
 
-export default function Seo({
+export const Seo = ({
 	title = defaultTitle,
 	description = defaultDescription,
 	location = '',
-}) {
+}) => {
 	const structuredDataOrganization = `{
 		"@context": "http://schema.org",
 		"@type": "Organization",

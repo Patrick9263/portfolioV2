@@ -8,7 +8,7 @@ import {
 	Wrapper, IntroWrapper, Details, Thumbnail,
 } from './styles'
 
-export default function Intro() {
+export const Intro = () => {
 	const { theme } = useContext(ThemeContext)
 
 	return (

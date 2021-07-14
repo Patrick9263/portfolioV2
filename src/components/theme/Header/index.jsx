@@ -4,7 +4,7 @@ import Hamburger from './Hamburger'
 import Sidebar from './Sidebar'
 import { Wrapper, Overlay } from './styles'
 
-export default function Header() {
+export const Header = () => {
 	const [sidebar, toggle] = useState(false)
 
 	return (

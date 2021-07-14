@@ -4,7 +4,7 @@ import { Footer } from 'components/theme'
 import { Global } from './styles'
 import './fonts.css'
 
-export default function Layout({ children }) {
+export const Layout = ({ children }) => {
 	const { theme } = useContext(ThemeContext)
 
 	return (

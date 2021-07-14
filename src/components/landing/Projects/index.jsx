@@ -8,7 +8,7 @@ import {
 	Wrapper, Grid, Item, Content, Stats, Languages,
 } from './styles'
 
-export default function Projects() {
+export const Projects = () => {
 	const { theme } = useContext(ThemeContext)
 	let {
 		github: {
