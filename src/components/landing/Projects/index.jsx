@@ -8,7 +8,7 @@ import { Wrapper, Grid, Item, Content, Stats, Languages } from './styles'
 
 export const Projects = () => {
     const { theme } = useContext(ThemeContext)
-    const {
+    let {
         github: {
             viewer: {
                 repositories: { edges },
@@ -44,6 +44,7 @@ export const Projects = () => {
       }
     `
     )
+    edges = edges.filter(e => e.node.url.includes("Patrick9263"))
     return (
         <Wrapper as={Container} id="projects">
             <h2>Projects</h2>

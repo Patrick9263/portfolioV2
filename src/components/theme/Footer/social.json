@@ -2,25 +2,25 @@
   {
     "id": 0,
     "name": "Telegram",
-    "link": "https://t.me/smakosh",
+    "link": "https://t.me/smittward",
     "icon": "/icons/telegram.svg"
   },
   {
     "id": 1,
     "name": "Github",
-    "link": "https://github.com/smakosh",
+    "link": "https://github.com/Patrick9263",
     "icon": "/icons/github.svg"
   },
   {
     "id": 2,
-    "name": "StackOverflow",
-    "link": "https://stackoverflow.com/users/story/7396786",
-    "icon": "/icons/stackoverflow.svg"
+    "name": "LinkedIn",
+    "link": "https://www.linkedin.com/in/patrick-smith1/",
+    "icon": "/icons/linkedin.svg"
   },
   {
     "id": 3,
     "name": "Twitter",
-    "link": "https://twitter.com/smakosh",
+    "link": "https://twitter.com/Smiitward",
     "icon": "/icons/twitter.svg"
   }
 ]

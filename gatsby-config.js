@@ -1,5 +1,7 @@
 const config = require("./src/data/config")
 
+// https://portfolio.smakosh.com/
+
 require("dotenv").config({
   path: `.env`,
 })
