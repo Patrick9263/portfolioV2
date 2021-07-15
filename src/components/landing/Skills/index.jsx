@@ -24,7 +24,7 @@ export const Skills = () => {
 						Currently working with React, GatsbyJs, and GraphQL.
 					</p>
 					<Button as={AnchorLink} href="#contact">
-						Hire me
+						Contact me
 					</Button>
 				</Details>
 			</SkillsWrapper>
