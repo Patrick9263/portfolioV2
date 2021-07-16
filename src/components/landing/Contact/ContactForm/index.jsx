@@ -55,6 +55,7 @@ const ContactForm = () => (
 			} catch (err) {
 				setSubmitting(false)
 				setFieldValue('success', false)
+				// eslint-disable-next-line no-alert
 				alert('Something went wrong, please try again!')
 			}
 		}}
