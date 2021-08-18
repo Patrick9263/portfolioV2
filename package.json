@@ -11,7 +11,9 @@
 		"start": "npm run develop",
 		"serve": "gatsby serve",
 		"clean": "gatsby clean",
-		"test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+		"test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+		"dockerBuild": "docker build -t portfolio-v2 .",
+		"dockerRun": "docker run -dp 3000:3000"
 	},
 	"dependencies": {
 		"axios": "^0.21.1",
