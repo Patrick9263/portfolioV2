@@ -28,9 +28,11 @@ export const Flex = styled.div`
 export const Links = styled.div`
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
+	width: 139px;
 
 	a {
-		margin: 0 0.5rem;
+		width: 28px;
 
 		img {
 			margin: 0;
