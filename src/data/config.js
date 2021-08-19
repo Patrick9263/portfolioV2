@@ -2,7 +2,7 @@ module.exports = {
 	defaultTitle: 'Patrick Smith',
 	logo: 'https://portfolio.smakosh.com/favicon/favicon-512.png',
 	author: 'Patrick Smith',
-	url: 'https://portfolio-v2-8nibj.ondigitalocean.app',
+	url: 'https://patricksmith.io',
 	legalName: 'Patrick Smith',
 	defaultDescription: 'I’m Patrick and I’m a software engineer!',
 	socialLinks: {
