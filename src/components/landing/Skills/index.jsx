@@ -1,8 +1,6 @@
 import React, { useContext } from 'react'
 import { ThemeContext } from 'providers/ThemeProvider'
 import { Container, Button } from 'components/common'
-// import programmer from 'assets/illustrations/programmer.jpg'
-/* <a href="https://www.vecteezy.com/free-vector/code">Code Vectors by Vecteezy</a> */
 import pc from 'assets/illustrations/backend.png'
 import resume from './Resume.pdf'
 
@@ -34,9 +32,9 @@ export const Skills = () => {
 
 					<h2>Skills</h2>
 					<ul>
-						<li>React, JavaScript, HTML5, (S)CSS, REST APIs, Markdown, AsciiDocs</li>
-						<li>Python, C/C++, C#, Java, MatLab</li>
-						<li>PowerShell, Bash, MySQL, Git</li>
+						<li>React, JavaScript, GatsbyJs, HTML5/(S)CSS, REST APIs, Markdown, AsciiDocs</li>
+						<li>NodeJS, Python, C#, Java, C/C++, MatLab</li>
+						<li>PowerShell, Bash, SQL, Git/GitHub</li>
 						<li>PC hardware</li>
 					</ul>
 
