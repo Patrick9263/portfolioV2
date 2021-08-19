@@ -33,6 +33,12 @@ export const Details = styled.div`
 			mix-blend-mode: ${({ theme }) => (theme === 'light' ? 'unset' : 'difference')};
 		}
 	}
+	h3 {
+		color: ${({ theme }) => (theme === 'dark' ? '#c7c7c7' : '#212121')};
+		@media (max-width: 960px) {
+			mix-blend-mode: ${({ theme }) => (theme === 'light' ? 'unset' : 'difference')};
+		}
+	}
 	p {
 		margin-bottom: 2.5rem;
 		font-size: 20pt;

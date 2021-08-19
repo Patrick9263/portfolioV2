@@ -33,12 +33,24 @@ export const Details = styled.div`
 			mix-blend-mode: ${({ theme }) => (theme === 'light' ? 'unset' : 'difference')};
 		}
 	}
+	h3 {
+		color: ${({ theme }) => (theme === 'light' ? '#212121' : '#fff')};
+		@media (max-width: 960px) {
+			mix-blend-mode: ${({ theme }) => (theme === 'light' ? 'unset' : 'difference')};
+		}
+	}
 	p {
 		margin-bottom: 2.5rem;
 		font-size: 20pt;
 		font-weight: normal;
 		line-height: 1.3;
 		color: ${({ theme }) => (theme === 'dark' ? '#c7c7c7' : '#707070')};
+		@media (max-width: 960px) {
+			mix-blend-mode: ${({ theme }) => (theme === 'light' ? 'unset' : 'difference')};
+		}
+	}
+	li {
+		color: ${({ theme }) => (theme === 'dark' ? '#c7c7c7' : '#212121')};
 		@media (max-width: 960px) {
 			mix-blend-mode: ${({ theme }) => (theme === 'light' ? 'unset' : 'difference')};
 		}

@@ -25,6 +25,24 @@ export const Education = () => {
 					<li>Minor in Mathematics</li>
 				</ul>
 
+				<h3>Senior Design Project</h3>
+				<ul>
+					<li>
+						Developed a web-based application which allows pathologists easy access to
+						Copy Number Variation (CNV) calling using Whole Genome Sequencing (WGS)
+						data to improve research.
+					</li>
+					<li>
+						Application cross referenced any CNVs found with reputable clinical databases to
+						identify CNVs widely known to be associated with disease.
+					</li>
+					<li>Built a clinically relevant copy number variation database.</li>
+					<li>
+						Displayed copy number variations and clinical annotations to
+						pathologists with a user-friendly GUI.
+					</li>
+				</ul>
+
 				<br />
 
 			</Details>

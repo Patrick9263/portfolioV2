@@ -1,7 +1,9 @@
 import React, { useContext } from 'react'
 import { ThemeContext } from 'providers/ThemeProvider'
 import { Container, Button } from 'components/common'
-import programmer from 'assets/illustrations/programmer.jpg'
+// import programmer from 'assets/illustrations/programmer.jpg'
+/* <a href="https://www.vecteezy.com/free-vector/code">Code Vectors by Vecteezy</a> */
+import pc from 'assets/illustrations/backend.png'
 import resume from './Resume.pdf'
 
 import {
@@ -20,16 +22,15 @@ export const Skills = () => {
 		<Wrapper id="about">
 			<SkillsWrapper as={Container}>
 				<Thumbnail>
-					<img src={programmer} alt="programmer" />
-					<a href="https://www.vecteezy.com/free-vector/code">Code Vectors by Vecteezy</a>
+					<img src={pc} alt="pc" />
 				</Thumbnail>
 				<Details theme={theme}>
 					<h1>About me</h1>
-					<p>
+					<h3>
 						Software engineer at Travelers.
 						<br />
 						Currently working with React, GatsbyJs, and GraphQL.
-					</p>
+					</h3>
 
 					<h2>Skills</h2>
 					<ul>
