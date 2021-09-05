@@ -3,7 +3,8 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { ThemeContext } from 'providers/ThemeProvider'
 import { Header } from 'components/theme'
 import { Container, Button } from 'components/common'
-import dev from 'assets/illustrations/dev.svg'
+import webDev from 'assets/illustrations/web-dev.png'
+
 import {
 	Wrapper, IntroWrapper, Details, Thumbnail,
 } from './styles'
@@ -23,7 +24,8 @@ export const Intro = () => {
 					</Button>
 				</Details>
 				<Thumbnail>
-					<img src={dev} alt="I’m Patrick and I’m a React developer!" />
+					<img src={webDev} alt="education" />
+					<a href='https://www.cleanpng.com/png-html-responsive-web-design-web-development-softwar-106098/'>Image by Jenuziya</a>
 				</Thumbnail>
 			</IntroWrapper>
 		</Wrapper>

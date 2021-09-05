@@ -1,7 +1,7 @@
 import React from 'react'
 import { Layout, Seo } from 'components/common'
 import {
-	Intro, Projects, Skills, Education, Contact,
+	Intro, Projects, Skills, Education, Contact, Career,
 } from 'components/landing'
 
 const Home = () => (
@@ -9,6 +9,7 @@ const Home = () => (
 		<Seo />
 		<Intro />
 		<Projects />
+		<Career />
 		<Skills />
 		<Education />
 		<Contact />

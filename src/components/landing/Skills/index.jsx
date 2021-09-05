@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { ThemeContext } from 'providers/ThemeProvider'
 import { Container, Button } from 'components/common'
-import pc from 'assets/illustrations/backend.png'
+import monitor from 'assets/illustrations/monitor.png'
 import resume from './Resume.pdf'
 
 import {
@@ -17,19 +17,13 @@ export const Skills = () => {
 	}
 
 	return (
-		<Wrapper id="about">
+		<Wrapper id="about" theme={theme}>
 			<SkillsWrapper as={Container}>
 				<Thumbnail>
-					<img src={pc} alt="pc" />
+					<img src={monitor} alt="monitor" />
+					<a href='https://www.cleanpng.com/png-computer-circulatory-system-6607/'>Image by Rhonda</a>
 				</Thumbnail>
 				<Details theme={theme}>
-					<h1>About me</h1>
-					<h3>
-						Software engineer at Travelers.
-						<br />
-						Currently working with React, GatsbyJs, and GraphQL.
-					</h3>
-
 					<h2>Skills</h2>
 					<ul>
 						<li>React, JavaScript, GatsbyJs, HTML5/(S)CSS, REST APIs, Markdown, AsciiDocs</li>

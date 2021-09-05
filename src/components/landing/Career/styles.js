@@ -57,12 +57,19 @@ export const Details = styled.div`
 
 export const Thumbnail = styled.div`
 	flex: 1;
+	@media (min-width: 961px) {
+		padding-left: 10%;
+	}
 	@media (max-width: 960px) {
 		width: 100%;
 		margin-bottom: 2rem;
+		padding-right: 10%;
 	}
 	img {
 		width: 100%;
 		border-radius: 10px;
+	}
+	a {
+		color: grey;
 	}
 `

@@ -52,6 +52,9 @@ export const Details = styled.div`
 
 export const Thumbnail = styled.div`
 	flex: 1;
+	a {
+		color: #545452;
+	}
 	@media (max-width: 960px) {
 		width: 100%;
 	}
