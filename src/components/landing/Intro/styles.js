@@ -1,9 +1,10 @@
 import styled from 'styled-components'
-import overlayIllustration from 'assets/illustrations/overlay.svg'
+import overlayDark from 'assets/illustrations/overlay-dark.svg'
+import overlayLight from 'assets/illustrations/overlay-light.svg'
 
 export const Wrapper = styled.div`
 	padding-bottom: 4rem;
-	background-image: url(${overlayIllustration});
+	background-image: ${({ theme }) => (theme === 'dark' ? `url(${overlayDark})` : `url(${overlayLight})`)};
 	background-size: contain;
 	background-position: right top;
 	background-repeat: no-repeat;

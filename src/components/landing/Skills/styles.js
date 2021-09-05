@@ -1,9 +1,9 @@
 import styled from 'styled-components'
-import detailsDarkIllustration from 'assets/illustrations/details-dark.svg'
-import detailsLightIllustration from 'assets/illustrations/details-light.svg'
+import detailsDark from 'assets/illustrations/details-dark.svg'
+import detailsLight from 'assets/illustrations/details-light.svg'
 
 export const Wrapper = styled.div`
-	background-image: ${({ theme }) => (theme === 'dark' ? `url(${detailsDarkIllustration})` : `url(${detailsLightIllustration})`)};
+	background-image: ${({ theme }) => (theme === 'dark' ? `url(${detailsDark})` : `url(${detailsLight})`)};
 	background-size: contain;
 	background-position: left top;
 	background-repeat: no-repeat;
