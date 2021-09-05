@@ -63,7 +63,6 @@ export const Thumbnail = styled.div`
 	@media (max-width: 960px) {
 		width: 100%;
 		margin-bottom: 2rem;
-		padding-right: 10%;
 	}
 	img {
 		width: 100%;
