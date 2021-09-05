@@ -17,7 +17,7 @@ export const Skills = () => {
 	}
 
 	return (
-		<Wrapper id="about" theme={theme}>
+		<Wrapper id="skills" theme={theme}>
 			<SkillsWrapper as={Container}>
 				<Thumbnail>
 					<img src={monitor} alt="monitor" />
