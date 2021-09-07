@@ -12,7 +12,7 @@ export const Header = ({ is404 }) => {
 			<Overlay sidebar={sidebar} onClick={() => toggle(!sidebar)} />
 			<Navbar is404={is404} />
 			<Hamburger sidebar={sidebar} toggle={toggle} />
-			<Sidebar sidebar={sidebar} toggle={toggle} />
+			<Sidebar is404={is404} sidebar={sidebar} toggle={toggle} />
 		</Wrapper>
 	)
 }
