@@ -5,15 +5,15 @@ import { Container } from 'components/common'
 import NavbarLinks from '../NavbarLinks'
 import { Wrapper, Brand } from './styles'
 
-const Navbar = () => {
+const Navbar = ({ is404 }) => {
 	const { theme } = useContext(ThemeContext)
 
 	return (
 		<Wrapper as={Container}>
 			<Brand as={Link} to="/" theme={theme}>
-        Patrick Smith
+				Patrick Smith
 			</Brand>
-			<NavbarLinks desktop />
+			<NavbarLinks desktop is404={is404} />
 		</Wrapper>
 	)
 }
